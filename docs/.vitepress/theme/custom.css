@@ -1,0 +1,37 @@
+:root {
+  --vp-c-brand: #1d588f;
+  --vp-c-brand-light: #2e7cc5;
+  --vp-c-brand-lighter: #4ca2f3;
+  --vp-c-brand-dark: #0e355a;
+  --vp-c-brand-darker: #061c31;
+}
+
+.content em {
+  color: var(--vp-c-brand-light);
+}
+
+.content p {
+  text-align: justify;
+}
+
+.content figure {
+  text-align: center;
+}
+
+.content figure > img {
+  margin: auto;
+}
+
+.content figure > table {
+  display: inline-block;
+}
+
+.content figure > figcaption {
+  font-size: 14px;
+  line-height: 16px;
+  text-align: justify;
+}
+
+.content mjx-container {
+  display: inline-flex;
+}

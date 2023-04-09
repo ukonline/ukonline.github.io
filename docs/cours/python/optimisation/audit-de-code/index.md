@@ -1,0 +1,3 @@
+# Audit de code
+
+Dans [le chapitre précédent](../mesure-de-performance/), différentes techniques et outils de mesure du temps d'exécution et de la consommation mémoire d'un programme, ou d'une partie de programme, ont été présentés. Comme précédemment rappelé, avant d'envisager une *optimisation* et de se lancer dans la modification du code d'un programme, il faut réaliser un *audit* de ce dernier. Il s'agit de retrouver les portions de code trop gourmandes en ressources, à savoir en temps processeur et en espace mémoire, lors des exécutions du programme. Ce chapitre présente des outils de *profilage* de programme et donne des pistes sur comment exploiter les rapports qu'ils produisent pour identifier les opportunités d'optimisation.

@@ -1,0 +1,3 @@
+# Technique d'optimisation
+
+Bien connaitre un langage de programmation, et en particulier ses expressions idiomatiques, est utile pour l'utiliser efficacement. Comme vu au [chapitre précédent](../expression-idiomatique/), c'est également une première bonne manière d'optimiser son code, en contribuant à la diminution de son temps d'exécution et de sa consommation mémoire. Ce n'est évidemment pas la seule manière d'écrire des *programmes efficaces* en Python. Ce chapitre présente plusieurs *techniques d'optimisation* qu'il est possible d'utiliser, qu'elles soient générales ou spécifiques à Python.

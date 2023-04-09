@@ -1,0 +1,3 @@
+# Mesure de performance
+
+Comme détaillé à [la section&nbsp;2.2](../technique-d-optimisation/optimisation-de-code/), avant de se lancer dans l'*optimisation d'un code*, il faut d'abord s'assurer qu'il soit correct. Ensuite, il faut l'analyser pour identifier s'il est nécessaire de l'optimiser. Une optimisation peut, en effet, prendre beaucoup de temps, pour ne pas nécessairement améliorer grand-chose. De plus, il existe un risque non négligeable d'insérer un bug dans un programme correct, lors d'une optimisation. Dans ce chapitre, on va se concentrer sur la mesure du temps d'exécution et de la consommation mémoire d'un programme.
