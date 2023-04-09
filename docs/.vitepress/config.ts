@@ -4,6 +4,9 @@ export default defineConfig({
   title: 'UKOnline',
   description: 'Ce site propose des cours relatifs à des domaines comme l\'informatique, les mathématiques, etc. Ils sont accompagnés de ressources tel que des exercices et projets.',
   lang: 'fr-BE',
+  head: [
+    [ 'link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png' } ],
+  ],
   themeConfig: {
     docFooter: {
       prev: 'Page précédente',
