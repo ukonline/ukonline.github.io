@@ -51,28 +51,28 @@ export default defineConfig({
               items: [
                 {
                   text: 'Concaténation de chaines de caractères',
-                  link: '/cours/python/optimisation/expression-idiomatique/concatenation-de-chaines-de-caracteres/'
+                  link: '/cours/python/optimisation/expression-idiomatique/concatenation-de-chaines-de-caracteres/',
                 },
                 {
                   text: 'Définition de liste',
-                  link: '/cours/python/optimisation/expression-idiomatique/definition-de-liste/'
+                  link: '/cours/python/optimisation/expression-idiomatique/definition-de-liste/',
                 },
                 {
                   text: 'Génération à la demande',
-                  link: '/cours/python/optimisation/expression-idiomatique/generation-a-la-demande/'
+                  link: '/cours/python/optimisation/expression-idiomatique/generation-a-la-demande/',
                 },
                 {
                   text: 'Parcours de collection',
-                  link: '/cours/python/optimisation/expression-idiomatique/parcours-de-collection/'
+                  link: '/cours/python/optimisation/expression-idiomatique/parcours-de-collection/',
                 },
                 {
                   text: 'Gestion d\'erreur',
-                  link: '/cours/python/optimisation/expression-idiomatique/gestion-d-erreur/'
+                  link: '/cours/python/optimisation/expression-idiomatique/gestion-d-erreur/',
                 },
                 {
                   text: 'Variable locale',
-                  link: '/cours/python/optimisation/expression-idiomatique/variable-locale/'
-                }
+                  link: '/cours/python/optimisation/expression-idiomatique/variable-locale/',
+                },
               ]
             },
             {
@@ -82,28 +82,28 @@ export default defineConfig({
               items: [
                 {
                   text: 'Exécution de code Python',
-                  link: '/cours/python/optimisation/technique-d-optimisation/execution-de-code-python/'
+                  link: '/cours/python/optimisation/technique-d-optimisation/execution-de-code-python/',
                 },
                 {
                   text: 'Optimisation de code',
-                  link: '/cours/python/optimisation/technique-d-optimisation/optimisation-de-code/'
+                  link: '/cours/python/optimisation/technique-d-optimisation/optimisation-de-code/',
                 },
                 {
                   text: 'Style de programmation',
-                  link: '/cours/python/optimisation/technique-d-optimisation/style-de-programmation/'
+                  link: '/cours/python/optimisation/technique-d-optimisation/style-de-programmation/',
                 },
                 {
                   text: 'Fonction prédéfinie',
-                  link: '/cours/python/optimisation/technique-d-optimisation/fonction-predefinie/'
+                  link: '/cours/python/optimisation/technique-d-optimisation/fonction-predefinie/',
                 },
                 {
                   text: 'Structure de données',
-                  link: '/cours/python/optimisation/technique-d-optimisation/structure-de-donnees/'
+                  link: '/cours/python/optimisation/technique-d-optimisation/structure-de-donnees/',
                 },
                 {
                   text: 'Flux d\'exécution',
-                  link: '/cours/python/optimisation/technique-d-optimisation/flux-d-execution/'
-                }
+                  link: '/cours/python/optimisation/technique-d-optimisation/flux-d-execution/',
+                },
               ]
             },
             {
@@ -113,27 +113,27 @@ export default defineConfig({
               items: [
                 {
                   text: 'Temps d\'exécution',
-                  link: '/cours/python/optimisation/mesure-de-performance/temps-d-execution/'
+                  link: '/cours/python/optimisation/mesure-de-performance/temps-d-execution/',
                 },
                 {
                   text: 'Module timeit',
-                  link: '/cours/python/optimisation/mesure-de-performance/module-timeit/'
+                  link: '/cours/python/optimisation/mesure-de-performance/module-timeit/',
                 },
                 {
                   text: 'Type de temps',
-                  link: '/cours/python/optimisation/mesure-de-performance/type-de-temps/'
+                  link: '/cours/python/optimisation/mesure-de-performance/type-de-temps/',
                 },
                 {
                   text: 'Consommation mémoire',
-                  link: '/cours/python/optimisation/mesure-de-performance/consommation-memoire/'
+                  link: '/cours/python/optimisation/mesure-de-performance/consommation-memoire/',
                 },
                 {
                   text: 'Module tracemalloc',
-                  link: '/cours/python/optimisation/mesure-de-performance/module-tracemalloc/'
+                  link: '/cours/python/optimisation/mesure-de-performance/module-tracemalloc/',
                 },
                 {
                   text: 'Module guppy',
-                  link: '/cours/python/optimisation/mesure-de-performance/module-guppy/'
+                  link: '/cours/python/optimisation/mesure-de-performance/module-guppy/',
                 }
               ]
             },
@@ -144,32 +144,32 @@ export default defineConfig({
               items: [
                 {
                   text: 'Profilage',
-                  link: '/cours/python/optimisation/audit-de-code/profilage/'
+                  link: '/cours/python/optimisation/audit-de-code/profilage/',
                 },
                 {
                   text: 'Profil de temps d\'exécution',
-                  link: '/cours/python/optimisation/audit-de-code/profil-de-temps-d-execution/'
+                  link: '/cours/python/optimisation/audit-de-code/profil-de-temps-d-execution/',
                 },
                 {
                   text: 'Appel de fonction',
-                  link: '/cours/python/optimisation/audit-de-code/appel-de-fonction/'
+                  link: '/cours/python/optimisation/audit-de-code/appel-de-fonction/',
                 },
                 {
                   text: 'Profil de consommation mémoire',
-                  link: '/cours/python/optimisation/audit-de-code/profil-de-consommation-memoire/'
+                  link: '/cours/python/optimisation/audit-de-code/profil-de-consommation-memoire/',
                 },
                 {
                   text: 'Opportunité d\'optimisation',
-                  link: '/cours/python/optimisation/audit-de-code/opportunite-d-optimisation/'
-                }
+                  link: '/cours/python/optimisation/audit-de-code/opportunite-d-optimisation/',
+                },
               ]
-            }
+            },
           ]
-        }
+        },
       ]
     },
     socialLinks: [
-      { icon: 'facebook', link: 'https://www.facebook.com/ukonline.be' }
+      { icon: 'facebook', link: 'https://www.facebook.com/ukonline.be' },
     ]
   },
   markdown: {
