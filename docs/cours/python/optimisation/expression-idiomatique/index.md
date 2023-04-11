@@ -1,6 +1,6 @@
 ---
 prev:
-  text: Accueil
+  text: Table des matières
 ---
 
 # Expression idiomatique

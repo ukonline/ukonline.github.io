@@ -1,5 +1,7 @@
 import { defineConfig } from 'vitepress'
 
+import mathjax3 from 'markdown-it-mathjax3'
+
 export default defineConfig({
   title: 'UKOnline',
   description: 'Ce site propose des cours relatifs à des domaines comme l\'informatique, les mathématiques, etc. Ils sont accompagnés de ressources tel que des exercices et projets.',
@@ -25,20 +27,85 @@ export default defineConfig({
           {
             text: 'Programmation',
             items: [
-              { text: 'Python', link: '/cours/python/' }
+              { text: 'Python', link: '/cours/python/' },
             ]
           },
           {
             text: 'Sciences',
             items: [
-              { text: 'Mathématiques', link: '/cours/math/' }
+              { text: 'Mathématiques', link: '/cours/math/' },
             ]
-          }
+          },
         ]
-      }
+      },
     ],
     outlineTitle: 'Sur cette page',
     sidebar: {
+      '/cours/math/stats-base/': [
+        {
+          text: 'Statistiques : Concepts de base et vocabulaire',
+          link: '/cours/math/stats-base/',
+          items: [
+            {
+              text: 'Chapitre 1 : Statistique',
+              link: '/cours/math/stats-base/statistique/',
+              collapsed: true,
+              items: [
+                {
+                  text: 'Définition',
+                  link: '/cours/math/stats-base/statistique/definition/',
+                },
+                {
+                  text: 'Population et échantillon',
+                  link: '/cours/math/stats-base/statistique/population-et-echantillon/',
+                },
+                {
+                  text: 'Échantillonnage',
+                  link: '/cours/math/stats-base/statistique/echantillonnage/',
+                },
+              ]
+            },
+            {
+              text: 'Chapitre 2 : Variable',
+              link: '/cours/math/stats-base/variable/',
+              collapsed: true,
+              items: [
+                {
+                  text: 'Définition',
+                  link: '/cours/math/stats-base/variable/definition/',
+                },
+                {
+                  text: 'Observation',
+                  link: '/cours/math/stats-base/variable/observation/',
+                },
+                {
+                  text: 'Caractéristique',
+                  link: '/cours/math/stats-base/variable/caracteristique/',
+                },
+              ]
+            },
+            {
+              text: 'Chapitre 3 : Classe',
+              link: '/cours/math/stats-base/classe/',
+              collapsed: true,
+              items: [
+                {
+                  text: 'Définition',
+                  link: '/cours/math/stats-base/classe/definition/',
+                },
+                {
+                  text: 'Découpe en classes',
+                  link: '/cours/math/stats-base/classe/decoupe-en-classes/',
+                },
+                {
+                  text: 'Fréquence d\'observation',
+                  link: '/cours/math/stats-base/classe/frequence-d-observation/',
+                },
+              ]
+            },
+          ]
+        },
+      ],
       '/cours/python/optimisation/': [
         {
           text: 'Python efficace : Pratiques et astuces d\'optimisation de code',
@@ -174,7 +241,7 @@ export default defineConfig({
   },
   markdown: {
     config: (md) => {
-      md.use(require('markdown-it-mathjax3'))
+      md.use(mathjax3)
     },
   }
 })

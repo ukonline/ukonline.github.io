@@ -1,0 +1,3 @@
+# Caractéristique
+
+XXX

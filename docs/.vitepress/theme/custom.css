@@ -28,10 +28,13 @@
 
 .content figure > figcaption {
   font-size: 14px;
-  line-height: 16px;
+  line-height: 20px;
   text-align: justify;
 }
 
 .content mjx-container {
   display: inline-flex;
+}
+.content mjx-container > svg {
+  margin: auto;
 }
