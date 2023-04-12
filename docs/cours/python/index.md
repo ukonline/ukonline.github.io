@@ -1,17 +1,20 @@
 <script setup>
 import CourseCard from '../../.vitepress/components/CourseCard.vue'
 
+import python_snake from './apprendre-python/cover.jpg'
+import compact_antenna from './optimisation/cover.jpg'
+
 const courses = [{
   authors: ['Sébastien Combéfis', 'Quentin Lurkin'],
   chapters: 13,
-  cover: './apprendre-python/cover.jpg',
+  cover: python_snake,
   description: 'Ce cours propose une introduction à la programmation avec le langage Python. Il présente les bases du langage, à savoir les types de données, les variables, les fonctions et procédures, les séquences, la programmation orientée objet, la programmation évènementielle et la création d\'interfaces graphiques et, enfin, la gestion des erreurs. Il introduit également au concept d\'algorithme et de leurs implémentations.',
   link: 'apprendre-python/',
   title: 'Apprendre Python et s\'initier à la programmation'
 }, {
   authors: ['Sébastien Combéfis'],
   chapters: 4,
-  cover: './optimisation/cover.jpg',
+  cover: compact_antenna,
   description: 'Ce cours présente des astuces permettant d\'écrire du code Python efficace, tant par rapport au temps d\'exécution que par rapport à la consommation mémoire. Il permet de découvrir comment écrire un code « pythonique » et exploiter au mieux les constructions du langage. Il explique également comment mesurer les performances d\'un programme et comment réaliser un simple audit de ses performances.',
   link: 'optimisation/',
   title: 'Python efficace : Pratiques et astuces d\'optimisation de code'
