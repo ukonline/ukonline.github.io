@@ -13,7 +13,7 @@ Une fois toutes les observations faites pour une variable $X$, on se retrouve av
 ::: info Exemple
 Revenons à notre exemple d'étude sur la taille des Belges. Le tableau suivant reprend une partie des observations qui correspondent aux variables $X$ et $Y$ définies précédemment.
 
-<figure>
+<div class="center">
 
 | N° de l'individu ($i$) | Taille en cm ($x_i$) | Poids en kg ($y_i$) |
 |:-----------------------|:---------------------|:--------------------|
@@ -22,7 +22,7 @@ Revenons à notre exemple d'étude sur la taille des Belges. Le tableau suivant 
 | $\dots$                | $\dots$              | $\dots$             |
 | $n$                    | 165                  | 64                  |
 
-</figure>
+</div>
 
 On y voit, par exemple, que le premier individu analysé a une taille de $x_1$ = 154&nbsp;cm et un poids de $y_1$ = 63&nbsp;kg. La notation $x_1$ représente la valeur de la variable $X$ pour le premier individu analysé et $y_1$ correspond à la valeur de la variable $Y$ pour ce même individu. Le tableau complet comporte $n$ lignes, ce qui correspond bien à la taille de l'échantillon.
 :::

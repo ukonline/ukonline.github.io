@@ -6,6 +6,13 @@
   --vp-c-brand-darker: #061c31;
 }
 
+.content div.center {
+  text-align: center;
+}
+.content div.center > :first-child {
+  display: inline-block;
+}
+
 .content em {
   color: var(--vp-c-brand-light);
 }

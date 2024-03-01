@@ -69,7 +69,7 @@ Une variable quantitative est dite continue si l'ensemble de ses valeurs possibl
 Les variables quantitatives continues sont généralement plus complexes à analyser et traiter, mais des analyses plus poussées se basant sur l'*analyse de fonctions*, sous-branche des mathématiques, sont possibles.
 
 ::: info Exemple
-Imaginons que l'on mène une étude pour contrôler le poids des pots de yaourt produits par une usine, en réalisant une pesée de \numprint{10} pots pour chaque lot de \numprint{1000} pots produits. La variable :
+Imaginons que l'on mène une étude pour contrôler le poids des pots de yaourt produits par une usine, en réalisant une pesée de 10 pots pour chaque lot de 1000 pots produits. La variable :
 $$P = \textit{« le poids, en grammes »},$$
 
 est donc une variable quantitative continue, puisque l'ensemble des valeurs possibles que pourrait théoriquement prendre cette variable est infini. Les valeurs de la variable seront des nombres réels positifs, si l'on considère des mesures infiniment précises, avec un nombre illimité de chiffres après la virgule. Toutes les observations $p_i$ que l'on pourra faire font partie de l'ensemble suivant :
@@ -115,30 +115,30 @@ $$P = \textit{« la hauteur, mesur\'ee en m\`etres, avec un seul chiffre apr\`es
 
 et supposons que l'analyse de cette variable pour les seize arbres de notre échantillon produit les observations suivantes :
 
-<figure>
-<table>
-    <tr>
-        <td>175,9</td>
-        <td>289,1</td>
-        <td>365,0</td>
-        <td>217,9</td>
-        <td>483,1</td>
-        <td>381,6</td>
-        <td>217,3</td>
-        <td>318,4</td>
-    </tr>
-    <tr>
-        <td>335,7</td>
-        <td>489,6</td>
-        <td>561,4</td>
-        <td>299,3</td>
-        <td>314,9</td>
-        <td>521,6</td>
-        <td>452,6</td>
-        <td>318,1</td>
-    </tr>
-</table>
-</figure>
+<div class="center">
+    <table>
+        <tr>
+            <td>175,9</td>
+            <td>289,1</td>
+            <td>365,0</td>
+            <td>217,9</td>
+            <td>483,1</td>
+            <td>381,6</td>
+            <td>217,3</td>
+            <td>318,4</td>
+        </tr>
+        <tr>
+            <td>335,7</td>
+            <td>489,6</td>
+            <td>561,4</td>
+            <td>299,3</td>
+            <td>314,9</td>
+            <td>521,6</td>
+            <td>452,6</td>
+            <td>318,1</td>
+        </tr>
+    </table>
+</div>
 
 Si on s'intéresse à la plus petite observation, on va calculer le minimum de la variable $H$ et obtenir :
 $$h_{min} = 175,\!9\;m.$$
