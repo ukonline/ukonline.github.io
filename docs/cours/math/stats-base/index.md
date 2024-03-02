@@ -1,6 +1,6 @@
 # Statistiques : Concepts de base et vocabulaire
 
-Ce cours propose une introduction aux *statistiques* en introduisant les *concepts de base* et le *vocabulaire* associés. En particulier, il définit les notions d'individu, de population et d'échantillon et présente ce que sont les variables et leurs caractéristiques. Il présente également la notion de classes et comment elles sont établies et utilisées dans le cadre d'une simple analyse basée sur les fréquences d'observation.
+Ce cours propose une introduction aux *statistiques* en introduisant les *concepts de base* et le *vocabulaire* associé. En particulier, il définit les notions d'individu, de population et d'échantillon et présente ce que sont les variables et leurs caractéristiques. Il présente également la notion de classe et comment elles sont établies et utilisées dans le cadre d'une simple analyse basée sur les fréquences d'observation.
 
 ## Partie 1 : Éléments et concepts de base des statistiques
 
