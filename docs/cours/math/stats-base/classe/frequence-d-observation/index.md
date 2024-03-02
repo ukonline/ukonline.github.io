@@ -1,3 +1,0 @@
-# Fréquence d'observation
-
-XXX

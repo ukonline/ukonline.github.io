@@ -16,5 +16,5 @@ Cette première partie du cours se concentre sur la définition des *statistique
   - [2.3. Caractéristique](./variable/caracteristique/)
 - [Chapitre 3 : Classe](./classe/)
   - [3.1. Définition](./classe/definition/)
-  - [3.2. Découpe en classes](./classe/decoupe-en-classes/)
-  - [3.3. Fréquence d'observation](./classe/frequence-d-observation/)
+  - [3.2. Définition des classes](./classe/definition-des-classes/)
+  - [3.3. Fréquence des observations](./classe/frequence-des-observations/)

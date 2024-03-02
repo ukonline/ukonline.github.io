@@ -94,12 +94,12 @@ export default defineConfig({
                   link: '/cours/math/stats-base/classe/definition/',
                 },
                 {
-                  text: 'Découpe en classes',
-                  link: '/cours/math/stats-base/classe/decoupe-en-classes/',
+                  text: 'Définition des classes',
+                  link: '/cours/math/stats-base/classe/definition-des-classes/',
                 },
                 {
-                  text: 'Fréquence d\'observation',
-                  link: '/cours/math/stats-base/classe/frequence-d-observation/',
+                  text: 'Fréquence des observations',
+                  link: '/cours/math/stats-base/classe/frequence-des-observations/',
                 },
               ]
             },

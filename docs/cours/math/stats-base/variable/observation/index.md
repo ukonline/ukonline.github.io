@@ -8,7 +8,7 @@ Une *observation* correspond à la valeur d'une variable pour un individu donné
 Une observation pour une variable $X$ donnée correspond à la valeur de cette variable pour un individu donné de l'échantillon. L'observation faite pour le $i$<sup>e</sup> individu est notée $x_i$.
 :::
 
-Une fois toutes les observations faites pour une variable $X$, on se retrouve avec un total de $n$ observations, à savoir une pour chaque individu de l'échantillon.  On peut les représenter sous la forme d'un tableau.
+Une fois toutes les observations faites pour une variable $X$, on se retrouve avec un total de $n$ observations, à savoir une pour chaque individu de l'échantillon. On peut les représenter sous la forme d'un tableau.
 
 ::: info Exemple
 Revenons à notre exemple d'étude sur la taille des Belges. Le tableau suivant reprend une partie des observations qui correspondent aux variables $X$ et $Y$ définies précédemment.
@@ -32,6 +32,6 @@ De manière générale, tous les individus ont une valeur pour une variable donn
 La figure&nbsp;2.1 illustre cela en montrant tous les individus numérotés et les observations réalisées pour les quatre de l'échantillon, les seuls pour qui la valeur de la variable est connue. Les autres individus ont une valeur pour les différentes variables analysées, mais elles sont inconnues.
 
 <figure>
-  <img src="./observation.png" width="600" height="172">
+  <img src="./observation.png" width="600" height="161">
   <figcaption><b>Figure 2.1</b>&nbsp;–&nbsp;Pour chaque individu de la population, des observations peuvent être réalisées pour chaque variable d'intérêt de l'étude statistique.</figcaption>
 </figure>
