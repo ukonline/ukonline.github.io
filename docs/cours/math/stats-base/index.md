@@ -18,3 +18,20 @@ Cette première partie du cours se concentre sur la définition des *statistique
   - [3.1. Définition](./classe/definition/)
   - [3.2. Définition des classes](./classe/definition-des-classes/)
   - [3.3. Fréquence des observations](./classe/frequence-des-observations/)
+
+## Partie 2 : Activités pratiques
+
+Cette seconde partie du cours propose plusieurs types d'*activités pratiques* qui vous permettrons de vous entrainer et de tester votre compréhension des concepts vus dans la première partie. Vous trouverez principalement des vrai ou faux, des questions à choix multiples, des petits exercices, des missions, ainsi que des petites études de cas.
+
+- [Chapitre 4: Quiz](./quiz/)
+  - [4.1. Vrai ou faux](./quiz/vrai-ou-faux/)
+  - [4.2. Choix multiples](./quiz/choix-multiples/)
+  - [4.3. Compléter les blancs](./quiz/completer-les-blancs/)
+- [Chapitre 5: Exercice](./exercice/)
+  - [5.1. Population, échantillon et variable](./exercice/population-echantillon-et-variable/)
+  - [5.2. Identification et caractérisation de variable](./exercice/identification-et-caracterisation-de-variable/)
+  - [5.3. Définition de classes pour une variable continue](./exercice/definition-de-classes-pour-une-variable-continue/)
+- [Chapitre 6: Travail](./travail/)
+  - [6.1. Mission](./travail/mission/)
+  - [6.2. Coding](./travail/coding/)
+  - [6.3. Étude de cas](./travail/etude-de-cas/)

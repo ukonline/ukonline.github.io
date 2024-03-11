@@ -45,6 +45,10 @@ export default defineConfig({
         {
           text: 'Statistiques : Concepts de base et vocabulaire',
           link: '/cours/math/stats-base/',
+        },
+        {
+          text: 'Partie 1 : Éléments et concepts de base des statistiques',
+          collapsed: true,
           items: [
             {
               text: 'Chapitre 1 : Statistique',
@@ -100,6 +104,69 @@ export default defineConfig({
                 {
                   text: 'Fréquence des observations',
                   link: '/cours/math/stats-base/classe/frequence-des-observations/',
+                },
+              ]
+            },
+          ]
+        },
+        {
+          text: 'Partie 2 : Activités pratiques',
+          collapsed: true,
+          items: [
+            {
+              text: 'Chapitre 4 : Quiz',
+              link: '/cours/math/stats-base/quiz/',
+              collapsed: true,
+              items: [
+                {
+                  text: 'Vrai ou faux',
+                  link: '/cours/math/stats-base/quiz/vrai-ou-faux/',
+                },
+                {
+                  text: 'Choix multiples',
+                  link: '/cours/math/stats-base/quiz/choix-multiples/',
+                },
+                {
+                  text: 'Compléter les blancs',
+                  link: '/cours/math/stats-base/quiz/completer-les-blancs/',
+                },
+              ]
+            },
+            {
+              text: 'Chapitre 5 : Exercice',
+              link: '/cours/math/stats-base/exercice/',
+              collapsed: true,
+              items: [
+                {
+                  text: 'Population, échantillon et variable',
+                  link: '/cours/math/stats-base/exercice/population-echantillon-et-variable/',
+                },
+                {
+                  text: 'Identification et caractérisation de variable',
+                  link: '/cours/math/stats-base/exercice/identification-et-caracterisation-de-variable/',
+                },
+                {
+                  text: 'Définition de classes pour une variable continue',
+                  link: '/cours/math/stats-base/exercice/definition-de-classes-pour-une-variable-continue/',
+                },
+              ]
+            },
+            {
+              text: 'Chapitre 6 : Travail',
+              link: '/cours/math/stats-base/travail/',
+              collapsed: true,
+              items: [
+                {
+                  text: 'Mission',
+                  link: '/cours/math/stats-base/travail/mission/',
+                },
+                {
+                  text: 'Coding',
+                  link: '/cours/math/stats-base/travail/coding/',
+                },
+                {
+                  text: 'Étude de cas',
+                  link: '/cours/math/stats-base/travail/etude-de-cas/',
                 },
               ]
             },
